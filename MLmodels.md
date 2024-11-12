@@ -13,7 +13,7 @@ Machine learning is a branch of AI that enables computers to learn from data and
 
 
 ## Decision Tree
-* It is used supervised learning algorithm used for both classification and regression task.
+* is a type of supervised learning algorithm used for both classification and regression task.
 * Decision Tree has flow chart like structure used to make decisions.
 * **Working:** Splits data recursively based on feature values to reduce impurity in the subsets, creating branches until each leaf has a homogeneous outcome.
 * **Splitting Criteria:** Gini Impurity, Entropy/Information Gain, Variance Reduction
@@ -144,8 +144,10 @@ It is a essential tool for analyzing error in classification model.
 
 * Accuracy= TP+TN/TP+TN+FP+FN
 * Precision= TP/TP+FP
-* Recall= TP/TP+FN
+* TPR or Recall= TP/TP+FN
+* FPR=FP/FP+TN
 * F1-score=2*(Precision*Recall)/Precision+Recall
 
+* log-loss= 1/n(ylogp+(1-y)log(1-p))
 
 
