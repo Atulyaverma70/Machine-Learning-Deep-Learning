@@ -20,9 +20,9 @@ Machine learning is a branch of AI that enables computers to learn from data and
 * It has disadvantages of overfitting.
 * Evaluation Metrics used to find error in Regression: MSE, MAE, RMSE
 * Evaluation Metrics used to find error in classification: Accuracy, Precision, Recall, F1 Score (for classification), Mean Squared Error (for regression).
-* spliting done using gini index **(range 0 to 1)** and Entropy(information gain)**(range 0 to log(n)**).
-    * gini index=1-p^2
-    * Entropy=-plog(p)
+* spliting done using gini index **(range 0 to 0.5)** and Entropy(information gain)**(range 0 to 1**).
+    * gini index=1-p^2 (used when classes are imbalanced)
+    * Entropy=-plog(p) (used when useful when understanding uncertainity is important)
 * **Real life use-** Medical Diagnosis, Product Recomendation.
 
 ## Random Forest
@@ -94,6 +94,44 @@ It is the unsupervised machine learning technique commonly used in recommendatio
     * Social media
 * It has sparsity issue when data is insufficient.
 
+<hr> 
+
+## Gradient Boosting
+It is Machine learning technique that is used for building predictive model. It is ensemble learning method 
+* How it works?
+    * sequential learning
+    * Algorithm optimize the loss functions like-
+        * mean square error regression 
+        * log loss for classification
+* Key features
+    * Focus on optimizing errors
+    * Customizable loss functions
+* Advantages
+    * high predictive accuracy
+    * work well with structured and unstructured data
+    * can handles complex relationship in data
+* disadvantages
+    * can slow in large dataset
+    
+<hr>
+
+## XGBoost
+* It is optimized machine learning algorithm based on the Gradient Boosting framework.
+* it is widdely used for supervised learning tasks.
+* It is not an algorithm.
+* It is Library that is based on gradient Boosting.
+* Key features
+    * Do Parallel processing : Utilizes CPU and GPU for faster computations.
+    * Handling issing Data 
+* Used for common uses:
+    * Ranking 
+    * Classification 
+    * Regression
+
+## Difference between Gradient boosting and adaboost
+* Gradient boosting focuses mainely on minimizing the loss to get better output.
+* Adaboost is focuses on reweighting samples based on there error.
+
 
 
 ## Extra Notes
@@ -117,7 +155,7 @@ It is the unsupervised machine learning technique commonly used in recommendatio
 Activation functions introduce non-linearity into the model, enabling it to learn complex patterns, which ultimately helps in reducing prediction errors.
 * Sigmoid function
     * range 0 to 1
-    * s- shape cureve
+    * s- shape curve
     * used for binary classification
 
 * Softmax function
@@ -140,14 +178,20 @@ Activation functions introduce non-linearity into the model, enabling it to lear
     * range -infinite to infinite
 
 ## Confusion Matrix
-It is a essential tool for analyzing error in classification model.
+It is a essential tool for analyzing performance in classification model.
 
 * Accuracy= TP+TN/TP+TN+FP+FN
-* Precision= TP/TP+FP
-* TPR or Recall= TP/TP+FN
+* Precision= TP/TP+FP(proportion of positive prediction that are actually currect)
+* TPR or Recall= TP/TP+FN (proportion of actual positive that were correctly identifies)
 * FPR=FP/FP+TN
 * F1-score=2*(Precision*Recall)/Precision+Recall
 
-* log-loss= 1/n(ylogp+(1-y)log(1-p))
+* log-loss= -1/n(ylogp+(1-y)log(1-p))
+
+## Z score
+* Z=(X(data point)-μ(mean))/sd
+* It is use to detect the outlier or anomalies.
+* if Z-score is greater then +3 and less the -3 then it is outliear
+
 
 
