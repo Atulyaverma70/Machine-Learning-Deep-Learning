@@ -13,7 +13,7 @@
      np.array([[1,2,3],[4,5,6]])
 
      # dtype(it can make any data type of data)
-     np.array([1,2,3],dtype=float) # it generates the array of float
+     np.array([1,2,3],dtype=float) # it generates the array of floatgit 
 
      # np.arrang(use to make the array in range)
      np.array(1,11) # output of that is [1,2,3,4,5,6,7,8,9,10]
