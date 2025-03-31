@@ -16,10 +16,10 @@
      np.array([1,2,3],dtype=float) # it generates the array of floatgit 
 
      # np.arrang(use to make the array in range)
-     np.array(1,11) # output of that is [1,2,3,4,5,6,7,8,9,10]
+     np.arange(1,11) # output of that is [1,2,3,4,5,6,7,8,9,10]
 
      #np.reshape(it use to make the 1d to 2d)
-     np.arrange(1,13).reshape(2,6) =>it makes the 1d array into two rows and 6 columns
+     np.arange(1,13).reshape(2,6) =>it makes the 1d array into two rows and 6 columns
 
      #np.ones(all the value of array is one)
      np.ones(5)-> makes 1d array with 5 ones

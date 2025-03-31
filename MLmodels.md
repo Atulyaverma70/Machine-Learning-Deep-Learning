@@ -3,6 +3,7 @@ Machine learning is a branch of AI that enables computers to learn from data and
 ## Linear Regression
 * Linear regression is a type of supervised machine learning algorithm that computes the linear relationship between the dependent variable and one or more independent features by fitting a linear equation to observed data.
 * It is used for regression task.
+* residual is actual value minus predicted value.
 * **goal in this-** to find the best fit line.
 *  best fit line is that which has minimum error.
 * **USE-** House Price Prediction, sale forecast.
@@ -133,7 +134,6 @@ It is Machine learning technique that is used for building predictive model. It 
 * Adaboost is focuses on reweighting samples based on there error.
 
 
-
 ## Extra Notes
 
 * **Ensemble Learning method is two type-**
@@ -193,5 +193,41 @@ It is a essential tool for analyzing performance in classification model.
 * It is use to detect the outlier or anomalies.
 * if Z-score is greater then +3 and less the -3 then it is outliear
 
+* why we use mean and median in that?
+    * it tells the central tendency of data
+
+
+# feature extraction technique
+## PCA (principal component analysis)->unsupervised machine learning technique
+* Principal Component Analysis (PCA) is a dimensionality reduction technique used in machine learning and statistics to simplify large datasets while preserving essential patterns and structures. It is widely used for feature extraction, noise reduction, and visualization of high-dimensional data.
+* Benifits
+    * faster execution of algo
+    * visualization
+* Applications
+    * image compression
+    * Noise reduction
+    * feature extraction
+    * Data visualization
+* steps to perform that 
+    1. standardize the data
+    2. finds the covarience matrix
+    3. finds eigen value and eigen vector
+    4. sort eigen value in descending order and choose top k eigen vectors
+
+# feature selection
+Extracts the some important feture from feture.
+* why we need this
+    * curse of dimensionality
+    * computational complexity
+    * iterpretability
+* they are different types:
+    * filter based technique
+        1. dupliate fetures(drop the duplicate features)
+        2. varience threshold(worked on two features constant and quasi constant)
+        3. correlation technique(pearsen correlation cofficient technique)
+            * its range between -1(string inverse linear relation ship) to 1(strong positive relationship)
+        4. ANOVA(used when input is numerical column and output is categroical)
+        5. ch-square(used when both data categorical input and output)
+    
 
 
