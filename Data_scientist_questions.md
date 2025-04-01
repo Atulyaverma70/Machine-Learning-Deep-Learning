@@ -3,6 +3,11 @@
     - Computation power
     - feature is important
 
+* what you do when you are handling with imbalanced dataset?
+    - Resampling
+    - give priority to minority class
+    - use different metrics for accuracy
+
 *  Why we have logistic regression instead of logistic calssification?
     - because in that we get the range of value like if sigmoid fuction is .56 it means that the probability for becoming one and .44 for becoming zero.
 

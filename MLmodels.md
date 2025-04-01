@@ -219,15 +219,67 @@ Extracts the some important feture from feture.
 * why we need this
     * curse of dimensionality
     * computational complexity
-    * iterpretability
+    * iterpretability(prediction and inference-> undrstanding the relationship between input and output)
 * they are different types:
-    * filter based technique
+    * filter based technique(select a single column and perform the statics on it)
         1. dupliate fetures(drop the duplicate features)
         2. varience threshold(worked on two features constant and quasi constant)
         3. correlation technique(pearsen correlation cofficient technique)
             * its range between -1(string inverse linear relation ship) to 1(strong positive relationship)
         4. ANOVA(used when input is numerical column and output is categroical)
-        5. ch-square(used when both data categorical input and output)
+        5. chi-square(used when both data categorical input and output)
+    * wrapper method(in this method makes a different combination and apply ml techniques that perform well we take that)
+        1. Exaustve feature selection/best subset selection
+            * try all possibilty which perform well take that
+        2. forward selection
+        3. backword elimination
+        4. recursive feture elimination
+    * embedded method(this method select the most relevant feature while the model is being trained)
+        1. Regularization
+            * it is a technique used to prevent overfitting in machine learning models by adding penality to loss function.
+            * It is two type:
+                * L1 regularization(lasso regression)
+                    * it removes the less important feature by making some weight to zero.
+                    * makes the model simple and faster.
+                * L2 Regularization(ridge regression)
+                    * it reduces the less important feature by making the all weights small.
+                    * makes the model genralised
+                    * it helpfum when you want to redulce overfitting without loosing the features.
+
+
+## Bias Varience tradeoff
+its a tradeoff between model complexity and generalization.
+* Bias is error due to incorrect model assumptions
+* varience error due to senstivity to small fluctuations in training data
+* high bias low varience(Underfitting)
+    * not perform well on both traning and testing phase
+* high varience and low bias(Overfitting)
+    * that perform in training phase but didnt perform in testing phase
+
+## Feature scaling Technique(use increase the model accuracy)
+ It is the process of transforming the numerical features into a similar scale to improve the model performace
+ * It is two type
+    * Normalization(Min max scaling)
+        * I scales the values between 0 and 1 or -1 and 1 
+        * X′=X−Xmin/xmax-xmin
+        * best for neural network, KNN,K-means, SVM
+    * Standardization (z-score normalization)
+        * it centers the data around 0 with standard deviation 1.
+        * work well for normal distributed data.
+        * X'=X-mean/SD
+
+## vanishing gradient problem
+The vanishing gradient problem occurs during the training of deep neural networks when gradients (the updates used in backpropagation to optimize weights) become extremely small, approaching zero. 
+
+​
+
+ 
+​
+
+
+
+
+
     
 
 
