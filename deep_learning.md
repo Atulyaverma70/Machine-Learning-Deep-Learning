@@ -89,3 +89,47 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
     * text input varying size.
     * zero padding- unneccessary coomputation.
     * Prediction problem.
+
+
+
+    ## vanishing gradient problem
+The vanishing gradient problem occurs during the training of deep neural networks when gradients (the updates used in backpropagation to optimize weights) become extremely small, approaching zero. 
+
+## Batch Normalization
+that help in speedup the neural network training.
+* intermal covariate shift
+    * change in distribution of network activation ue to the change in network parameter during training phase
+* Advantages
+    * hyper parameter more stable
+    * training rate faster
+    * regularizer
+    * reduces the weight initialization impact
+
+
+## how to improve the performance of a Neural Network
+* by fine tuning the hyper parameters
+    * by increasing no of hidden layers
+    * by incresing the neurons per layer
+    * increase the epoch
+
+## problems with neural netwok
+* vanishing graidient and exploading gradient
+* Not enough data
+* slow training 
+* overfitting
+
+## epoch
+An epoch is one complete pass of the entire dataset through the neural network during training.
+
+## early stopping
+Early stopping is a regularization technique used in machine learning and deep learning to prevent overfitting by stopping the training process when the model's performance on a validation set starts to degrade.
+
+## generators
+* it is useful for large amount of data.
+* It dividies the whole data in multiple chunks then train one by one data due to the less computational power and large amount of data.
+
+## Data Augmentation
+* it is a technique creating new data from existiong data.
+* resuces the overfitting.
+
+

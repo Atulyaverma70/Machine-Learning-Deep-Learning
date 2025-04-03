@@ -268,8 +268,9 @@ its a tradeoff between model complexity and generalization.
         * work well for normal distributed data.
         * X'=X-mean/SD
 
-## vanishing gradient problem
-The vanishing gradient problem occurs during the training of deep neural networks when gradients (the updates used in backpropagation to optimize weights) become extremely small, approaching zero. 
+
+
+
 
 ​
 
