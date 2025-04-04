@@ -72,6 +72,14 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
     * language translation
     * Anomaly Detection
 
+## Transformer
+* Transformers are a type of deep learning model. it is use to handle sequential data.
+* key concepts
+    * Parallelization: Unlike RNNs/LSTMs, Transformers can process entire sequences at once, making training much faster.
+    * Encoder-Decoder Architecture (used in tasks like translation):
+        * Encoder: Reads the input text.
+        * Decoder: Generates the output (e.g., translated text).
+
 
 
 
@@ -130,6 +138,6 @@ Early stopping is a regularization technique used in machine learning and deep l
 
 ## Data Augmentation
 * it is a technique creating new data from existiong data.
-* resuces the overfitting.
+* reduces the overfitting.
 
 
