@@ -80,6 +80,32 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
         * Encoder: Reads the input text.
         * Decoder: Generates the output (e.g., translated text).
 
+* Advantages:
+    * Scability
+    * Transfer learning(you can used for custom task also)
+    * multimodel input output
+    * flexible arch(encoder for bert and decoder for gpt)
+    * ecosystem(lots of libraries like hugging face)
+    * easily integrated with AI techniqueus(like easily combine with GAN,image generator)
+* real worl applications like:
+    * ChatGPT
+    * DALL-E2
+    * alphafold(used to decode the structures of protein)
+    * open AI codex(convert natural language in code)
+* disadvantages:
+    * high computation
+    * overfitting
+    * energy consumption
+    * interpretation
+    * bias
+    * Data problem
+* futre of that
+    * improvement in efficiency
+    * multimodel capabilities(like text image/speech,biometric feedback, time series data)
+    * Domain specific
+    * multi lingual(in different language)
+
+
 
 
 
