@@ -104,6 +104,9 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
     * multimodel capabilities(like text image/speech,biometric feedback, time series data)
     * Domain specific
     * multi lingual(in different language)
+* Self attention
+    * It is use to generate contextual embedding
+
 
 
 
