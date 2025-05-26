@@ -45,3 +45,10 @@ NLP is a field of AI that focuses on the intraction between human and computers.
         * Word2Vec
             * Predicts the context of a word using a neural network.
 * language models like BERT, GPT are used to prdict next word.
+
+## Vectorization techniques(used to convert words in vector(numbers) form)
+* One hot Encoding 
+* Bag of words
+* word embedding(represent the average meaning of words into vectors)
+    *  they are static(once you declared then i didnt changed)
+* Contextual embedding(it is dynamic)

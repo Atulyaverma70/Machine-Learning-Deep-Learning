@@ -3,7 +3,7 @@ Machine learning is a branch of AI that enables computers to learn from data and
 ## Linear Regression
 * Linear regression is a type of supervised machine learning algorithm that computes the linear relationship between the dependent variable and one or more independent features by fitting a linear equation to observed data.
 * It is used for regression task.
-* residual is actual value minus predicted value.
+* residual is actual value minus predicted value.(used to chrck the accuracy);
 * **goal in this-** to find the best fit line.
 *  best fit line is that which has minimum error.
 * **USE-** House Price Prediction, sale forecast.
@@ -66,7 +66,7 @@ Logistic regression is the machine learnig model used for classification task.
 
 ## K-nearest neighbour
 It is a supervised machine learning algorithm used for classification task.
-* **approach**- In KNN, when a new data point arrives, the algorithm calculates the distance between this point and all existing points in the dataset. It then identifies the K nearest neighbors (closest points) and assigns the new data point to the class (or predicts a value) based on the majority class of these neighbors (or average of values for regression).
+* **approach**- In KNN, when a new data point arrives, the algorithm calculates the distance between this point and all existing points in the dataset. It then identifies the K nearest neighbors (closest points) and assigns the new data point to the class (or predicts a value) based on the majority class of these neighbours (or average of values for regression).
 * In this we use Ecludian Distance, Manhatten distance,etc.
 * Applicaations- Recommendation system, Diesease prediction.
 
@@ -210,8 +210,8 @@ It is a essential tool for analyzing performance in classification model.
     * Data visualization
 * steps to perform that 
     1. standardize the data
-    2. finds the covarience matrix
-    3. finds eigen value and eigen vector
+    2. finds the covarience matrix(The covariance matrix shows how features vary with respect to each other.)
+    3. finds eigen value and eigen vector()
     4. sort eigen value in descending order and choose top k eigen vectors
 
 # feature selection

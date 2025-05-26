@@ -66,18 +66,18 @@
 
     #relational
 # Array functions
-    ```python
-    # max/min/sum/prod
-    np.sum(a1)-> give the sum of a1
-    np.sum(a1,axis=0)->give the column wise sum
-    np.sum(a1.axis=1)->give the row wise sum
+        ```python
+        # max/min/sum/prod
+        np.sum(a1)-> give the sum of a1
+        np.sum(a1,axis=0)->give the column wise sum
+        np.sum(a1.axis=1)->give the row wise sum
 
-    # mean/median/std/var
-    # dot product
-    np.dot(a1,a2)
+        # mean/median/std/var
+        # dot product
+        np.dot(a1,a2)
 
-    # log and exp(exponents)
-    # round/floor.ceil
+        # log and exp(exponents)
+        # round/floor.ceil
 
 # indexing and slicing
     * indexing used to fetch the single element
