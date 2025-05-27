@@ -123,7 +123,7 @@ It is Machine learning technique that is used for building predictive model. It 
 * It is Library that is based on gradient Boosting.
 * Key features
     * Do Parallel processing : Utilizes CPU and GPU for faster computations.
-    * Handling issing Data 
+    * Handling missing Data 
 * Used for common uses:
     * Ranking 
     * Classification 
