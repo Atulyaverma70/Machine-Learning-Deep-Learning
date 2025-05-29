@@ -106,7 +106,12 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
     * multi lingual(in different language)
 * Self attention
     * It is use to generate contextual embedding
-
+        * Embedding: A numerical representation of text (words, sentences, etc.) in a multi-dimensional space. Embeddings make it possible for machines to understand and process text.
+        * Contextual: The meaning of a word is understood based on its surrounding words. For example, the word “bank” means something different in:
+            * "river bank"
+            * "savings bank"
+        * Generate: The model produces (computes/creates) these embeddings.
+        * The word "bat" in “The bat flew at night” and “He swung the bat” will have different embeddings because their meanings differ based on context.
 
 
 
@@ -130,7 +135,7 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
 
 
     ## vanishing gradient problem
-The vanishing gradient problem occurs during the training of deep neural networks when gradients (the updates used in backpropagation to optimize weights) become extremely small, approaching zero. 
+The vanishing gradient problem occurs during the training of deep neural networks when ewe do backpropagation to improve the accuracy then gradients (the updates used in backpropagation to optimize weights) become extremely small, approaching zero. 
 
 ## Batch Normalization
 that help in speedup the neural network training.
