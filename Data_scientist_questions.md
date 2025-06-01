@@ -42,7 +42,7 @@
 
 * when we didnt use deep learning?
     - data is less
-    - cost(hardware)
+    - cost(hardware)x
     - iterpretbility
 
 * lazy learning algorithm and eager learning algorithm?
@@ -55,7 +55,11 @@
     -  when we make the assumption of nature of function that kind of algo is parametric.(Linear regression).
     - when we dont make any assumption of function then it is non parametric algo(decision tree)
     
+* what is the dofference between variance and conditional variance.
+    * Variance and Conditional Variance are statistical concepts used to measure the spread or dispersion of a random variable
+    - Variance measures the average squared deviation of a random variable from its mean. It indicates how much the values of the variable differ from the expected value (mean).
+    - Conditional variance measures the variance of a random variable 
 
-
-
-
+* What is the normal distribution and standard normal distribution?
+    * Normal distribution is a bell-shaped curve representing data symmetrically distributed around a mean  with standard deviation .
+    * Standard normal distribution is a normal distribution with mean 0 and standard deviation 1.
