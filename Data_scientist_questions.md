@@ -63,3 +63,7 @@
 * What is the normal distribution and standard normal distribution?
     * Normal distribution is a bell-shaped curve representing data symmetrically distributed around a mean  with standard deviation .
     * Standard normal distribution is a normal distribution with mean 0 and standard deviation 1.
+* Explain the concepts of entropy and information gain in decision trees.
+    * Entropy: Entropy is the measure of randomness. In terms of Machine learning, Entropy can be defined as the measure of randomness or impurity in our dataset.
+    * Information gain: It is defined as the change in the entropy of a feature given that there’s an additional information about that feature. If there are more than one features involved in Decision tree split, then the weighted average of entropies of the additional features is taken.
+    
