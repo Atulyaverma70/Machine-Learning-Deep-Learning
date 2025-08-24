@@ -40,7 +40,7 @@ NLP is a field of AI that focuses on the intraction between human and computers.
     * Example:"I went to the bank."
         * Bank → Financial institution OR Riverbank → Semantic analysis resolves this.
 
-* Word Embeddings (Word2Vec, GloVe)
+* Word Embeddings (Word2Vec, GloVe)- its a tool that captures semantic similarity.
     * Word embeddings are vector representations of words that capture their meanings and relationships.
         * Word2Vec
             * Predicts the context of a word using a neural network.
