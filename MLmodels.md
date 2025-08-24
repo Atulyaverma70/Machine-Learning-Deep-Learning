@@ -244,7 +244,7 @@ Extracts the some important feture from feture.
                 * L2 Regularization(ridge regression)
                     * it reduces the less important feature by making the all weights small.
                     * makes the model genralised
-                    * it helpfum when you want to redulce overfitting without loosing the features.
+                    * it helpfull when you want to reduce overfitting without loosing the features.
 
 
 ## Bias Varience tradeoff
