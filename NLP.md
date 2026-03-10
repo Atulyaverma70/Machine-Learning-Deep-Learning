@@ -283,11 +283,7 @@ there different levels of language processing
     * A metric to evaluate how good a language model is.
     * Intuition:
     ```
-    Perplexity tells us "how surprised" the model is by the sequence.
-
-    A perfect model (predicts correctly every time) has PP = 1
-
-    A worse model has PP → ∞
+    Perplexity is a metric used to evaluate language models that measures how well the model predicts a sequence of words. Lower perplexity means the model       predicts the text better.
 
 ###  Sequence Models
 1. Recurrent Neural Networks (RNN)
