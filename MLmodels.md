@@ -217,7 +217,7 @@ It is a essential tool for analyzing performance in classification model.
 # feature selection
 Extracts the some important feture from feture.
 * why we need this
-    * curse of dimensionality
+    * curse of dimensionality(refers to when data set become very large)
     * computational complexity
     * iterpretability(prediction and inference-> undrstanding the relationship between input and output)
 * they are different types:
