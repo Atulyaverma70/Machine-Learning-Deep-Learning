@@ -184,7 +184,7 @@ It is a essential tool for analyzing performance in classification model.
 * Precision= TP/TP+FP(proportion of positive prediction that are actually currect)
 * TPR or Recall= TP/TP+FN (proportion of actual positive that were correctly identifies)
 * FPR=FP/FP+TN
-* F1-score=2*(Precision*Recall)/Precision+Recall
+* F1-score=2*(Precision*Recall)/Precision+Recall- F1 score is the harmonic mean of precision and recall, used when we need a balance between false positives and false negatives, unlike accuracy which measures overall correctness.
 
 * log-loss= -1/n(ylogp+(1-y)log(1-p))
 
